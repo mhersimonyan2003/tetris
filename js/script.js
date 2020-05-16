@@ -1,0 +1,1 @@
+const tetris = document.getElementById('tetris');

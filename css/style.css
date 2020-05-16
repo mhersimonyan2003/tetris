@@ -1,0 +1,39 @@
+:root {
+  --tetris-bg-color: #f1f36d;
+  --figure-color: #44dcb1;
+  --span-border-color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tetris {
+  position: relative;
+  display: inline-block;
+  left: 50%; 
+  transform: translateX(-50%);
+  top: 15px;
+}
+
+.row {
+  display: flex;
+}
+.span {
+  width: 30px;
+  height: 30px;
+  background-color: var(--tetris-bg-color);
+  border: 1px solid var(--span-border-color);
+}
+
+.span:not(:last-child) {
+  border-right: 0;
+}
+
+.row:not(:last-child) > .span {
+  border-bottom: 0;
+}
+
+.figure {
+  background-color: var(--figure-color);
+}
