@@ -8,7 +8,7 @@ h1 {
   text-align: center;
 }
 
-.tetris {
+#tetris {
   position: relative;
   display: inline-block;
   left: 50%; 
