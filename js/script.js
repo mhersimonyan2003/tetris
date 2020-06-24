@@ -22,7 +22,7 @@ let figureCode;
 window.onkeydown = keyDown;
 window.onkeyup = keyUp;
 
-if (confirm("Would you like to start? Changed with GIT")) startGame = setInterval(start, 500);
+if (confirm("Would you like to start? Creating ․git")) startGame = setInterval(start, 500);
 
 function keyUp(event) {
   if (event.code === "ArrowUp") {
